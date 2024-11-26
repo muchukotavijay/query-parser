@@ -1,0 +1,16 @@
+{
+  "name": "query-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "nearleyc src/grammar.ne -o src/grammar.js",
+    "test": "npm run compile && node tests/test-runner.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "moo": "^0.5.2",
+    "nearley": "^2.20.1"
+  }
+}

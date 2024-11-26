@@ -15,7 +15,7 @@ Follow these steps to set up the project:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/muchukotavijay/query-parser.git
+   git clone <repository-url>
    ```
 2. Clone the repository:
    ```bash
